@@ -1,0 +1,19 @@
+{
+    "name": "petrabarus/yii2-recaptcha",
+    "description": "Yii2 widget for reCaptcha",
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "google/recaptcha": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "Petra Barus",
+            "email": "petra.barus@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PetraBarus\\Yii2\\ReCaptcha\\": "src/"
+        }
+    }
+}
