@@ -5,7 +5,6 @@ Google reCaptcha widget for Yii2.
 [![Latest Stable Version](https://poser.pugx.org/petrabarus/yii2-recaptcha/v/stable.svg)](https://packagist.org/packages/petrabarus/yii2-recaptcha)
 [![Total Downloads](https://poser.pugx.org/petrabarus/yii2-recaptcha/downloads.svg)](https://packagist.org/packages/petrabarus/yii2-recaptcha)
 [![Latest Unstable Version](https://poser.pugx.org/petrabarus/yii2-recaptcha/v/unstable.svg)](https://packagist.org/packages/petrabarus/yii2-recaptcha)
-[![Build Status](https://travis-ci.org/petrabarus/yii2-recaptcha.svg?branch=add-travis-ci)](https://travis-ci.org/petrabarus/yii2-recaptcha)
 
 ## Installation
 
