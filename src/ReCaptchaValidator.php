@@ -53,7 +53,11 @@ class ReCaptchaValidator extends Validator
         if ($response->isSuccess()) {
             return null;
         }
-        \Yii::error(__METHOD__ . ': ' . serialize($response->getErrorCodes()), __CLASS__);
-        return [$this->message];
+        $debug = json_encode([
+            'remoteIp' => $remoteIp,
+            'errorCodes' => $response->getErrorCodes(),
+        ]);
+        \Yii::error(__METHOD__ . ': ' . $debug, __CLASS__);
+        return [$this->message, []];
     }
 }
